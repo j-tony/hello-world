@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="28px" viewBox="0 0 34 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1873.000000, -31.000000)" stroke-linecap="square">
+        <g id="Sidebar" transform="translate(1600.000000, -4.000000)" stroke="#FFFFFF" stroke-width="4">
+            <g id="Menu" transform="translate(260.000000, 0.000000)">
+                <g id="Hamburger" transform="translate(15.000000, 36.000000)">
+                    <path d="M0,1 L30,1" id="Line"></path>
+                    <path d="M0,13 L30,13" id="Line-Copy"></path>
+                    <path d="M0,25 L30,25" id="Line-Copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

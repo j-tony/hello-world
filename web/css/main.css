@@ -1,0 +1,494 @@
+/****** Bordure ******/
+
+#top,
+#bottom,
+#left,
+#right {
+  background: #000;
+  position: fixed;
+  z-index: 6;
+}
+
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}
+
+
+/****** GENERAL ******/
+
+html {
+  font-size: 100%; /*ou... 62.5% => 10px*/
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.5em; /*10 x 2.4 = 24px*/
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+/******* v button modif v ********/
+.button {
+  width: 100%;
+  margin-bottom: 56px;
+}
+
+.button a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 0 4px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1em;
+  border-color: rgba(0, 0, 0, 0.0);
+  border: solid #000 4px;
+  background-color: #000;
+}
+
+.button a:hover {
+  background-color: #F9FF00;
+  border-color:#000;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+
+
+
+
+
+
+
+
+/******* MENU ********/
+
+#hamburger {
+  width: 60px;
+  height: 60px;
+}
+
+img#hamburger {
+  margin-top: 20px;
+  background-color: #212121;
+}
+
+
+nav {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.8em;
+  background-color: none;
+  width: 320px;
+  color: #000;
+  position: fixed;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  right: -240px;
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+nav:hover {
+  right: 0px;
+  background-color: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+nav h1 {
+  font-size: 1.2em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+nav a {
+  color: #000;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+}
+
+
+
+
+
+/******** SECTION SLIDER ********/
+
+.text {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 4px #000;
+  width: 80%;
+  margin: 60px 10%;
+}
+
+
+
+/******** SECTION ACTIVITE ********/
+
+.acti {
+  margin: 30px auto 120px;
+}
+
+.acti h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+section.acti button {
+  margin: 10px auto 20px;
+}
+
+
+
+
+/******** SECTION CONTRIBUER ********/
+
+.cont {
+  margin-bottom: 120px;
+}
+
+
+.cont h2 {
+  margin-bottom: 60px;
+}
+
+.cont p {
+  margin-bottom: 60px;
+}
+
+.img img {
+  height: auto;
+  width: 100%;
+  border: solid 4px #000;
+}
+
+
+
+
+
+/******** SECTION ENSEMBLE ********/
+
+.ense {
+  background-color: #F9FF00;
+  border-top: solid 10px #000;
+  border-bottom: solid 10px #000;
+  margin-bottom: 120px;
+}
+
+.ense h2,
+.ense p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.ense figure {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 4px #000;
+  margin: 60px auto;
+  max-width: 300px;
+}
+
+.ense img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+/******** SECTION NEWSLETTER ********/
+
+.news h2,
+.news p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.form-control {
+  height: 43px;
+  border-radius: 0;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1em;
+  width: 300px;
+  margin: 60px auto 0;
+}
+
+.button-n,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: #000;
+  border-color: rgba(0, 0, 0, 0.0);
+  border: solid #000 4px;
+  color: #fff;
+  width: 300px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1em;
+  margin: 30px auto 60px;
+}
+
+.button-n:hover{
+  background-color: #F9FF00;
+  border: solid #000 4px;
+  transition: all 0.4s;
+  color: #000;
+}
+
+.insc {
+  text-align: center;
+}
+
+
+/******** SECTION FOOTER ********/
+
+hr{
+  width: 80%;
+  border: solid #000 2px;
+  margin-top: 80px;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+footer ul li {
+  font-size: 0.8em;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+/****** L'ASSOCIATION ******/
+
+.imglanding{
+    background-color: #F9FF00;
+  background: url('../img/slider/association.jpg') center center / cover no-repeat;
+  text-align: center;
+  padding: auto;
+  height: 50vh;
+  border-bottom: solid #000 10px;
+}
+
+.assotext{
+  padding: 60px 10% 60px;
+}
+
+.asso{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 4px #000;
+  width: 100%;
+  margin: 60px auto;
+}
+
+.assosec{
+  margin-top: 100px;
+}
+
+h2.assodiv{
+  margin-bottom:60px;
+}
+
+
+/******** SLIDER ********/
+
+.slider {
+  overflow: hidden;
+  border-bottom: solid 10px #000;
+}
+
+#slick-slide00 {
+  background-color: #F9FF00;
+  background: url('../img/slider/sing.jpg') center center / cover no-repeat;
+  text-align: center;
+  padding: 60px auto;
+}
+
+#slick-slide01 {
+  background-color: #F9FF00;
+  background: url(../img/slider/zoo.jpg) center center / cover no-repeat;
+  text-align: center;
+}
+
+#slick-slide02 {
+  background-color: #F9FF00;
+  background: url(../img/slider/eat.jpg) center center / cover no-repeat;
+  text-align: center;
+}
+
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-dots li button::before {
+  color: #2F4858;
+  background-color: #fff;
+  border-radius: 5px;
+  height:5px;
+  width:5px;
+}
+
+
+
+/******** RESPONSIVE ********/
+
+/*@media(max-width: 756px)*/
+
+@media(max-width: 768px) {
+
+  /****** Bordure ******/
+  #left,
+  #right {
+    width: 10px;
+  }
+
+  #top,
+  #bottom {
+    height: 10px;
+  }
+  
+  #slick-slide00{
+    height: 590px;
+  }
+  #slick-slide01{
+    height: 590px;
+  }
+  #slick-slide02{
+    height: 590px;
+  }
+
+  nav {
+    right: -245px;
+  }
+  img#hamburger {
+    margin-top: 15px;
+  }
+
+  html {
+    font-size: 85%;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  nav {
+    text-align: left;
+  }
+
+  .img {
+    display: none;
+  }
+
+}
+
+
+ /****** 404 ERROR ******/
+.gif{
+  margin: auto;
+  text-align: center;
+}
+
+.error{
+  margin-top: 90px;
+}
+
+h3{
+  text-align: center;
+}
+
+
+
+@media(max-width: 576px) {
+
+  /****** Bordure ******/
+  #left,
+  #right {
+    width: 5px;
+  }
+
+  #top,
+  #bottom {
+    height: 5px;
+  }
+
+  nav {
+    right: -250px;
+  }
+  img#hamburger {
+    margin-top: 10px;
+  }
+
+  html {
+    font-size: 85%;
+  }
+}
